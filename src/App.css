@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+ 
+}
+
+.App-header {
+  background-color: #060124;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.circle-image {
+  width: 100px;         /* or any fixed size */
+  height: 100px;
+  object-fit: cover;    /* crops image to fill circle */
+  display: block;
+  margin: 0 auto; /* Center the image */
+  margin-top: 100px ;
+  margin-bottom: 10px; /* Reduce space below the image */
+}
+
+ 
+
+h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 2rem; /* Adjust font size if needed */
+}
+
+p {
+  margin-top: 5px; /* Reduce space above the paragraph */
+  font-size: 1rem; /* Adjust font size if needed */
+}
+
+.App-header h1 {
+  font-family: "Arapey";
+  font-weight: 100;
+  font-size: 100px;
+  background: linear-gradient(to bottom, #cfc09f 27%, #ffecb3 40%, #946811 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    position: relative;
+}
+
+
+.App-header p {
+  font-family: "Inter";
+  font-weight: 300;
+  font-size: 20px;
+  background: linear-gradient(to bottom, #d5cab1 67%, #e7cd7f 40%, #ba9344 78%); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    position: relative;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(2, 250px);
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.grid-item {
+  background-color: black;
+  border: 2px solid rgba(255, 217, 0, 0.422);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  
+}
+
+
+.grid-item {
+  background-color: black;
+  border: 2px solid rgba(255, 217, 0, 0.422);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  
+}
+
+.grid-item:hover {
+  background-color: black;
+  border: 2px solid rgba(255, 217, 0, 0.731);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+}
+
+
+.item-image {
+  max-height: 200px;
+  object-fit: contain;
+}
+
+.tags {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.tag {
+  background-color: #a67c52;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
